@@ -7,10 +7,12 @@
 `npm install -g @angular/cli`
 
 
-Create a new Angular project:
+### Create a new Angular project:
 ```
 ng new project_name
 cd project_name
 ```
-Run the project:ng serve
+
+### Run the project:
+`ng serve`
 
