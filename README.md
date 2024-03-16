@@ -1,7 +1,5 @@
 # Angular js
 
-## Angular js
-
 ### Install Node.js:
 * download and install Node.js from the official website: https://nodejs.org/
 
@@ -18,8 +16,8 @@ cd project_name
 ### Run the project:
 `ng serve`
 
-#Experiments 
-1 Develop Angular JS program that allows user to input their first name and last name and display their full
+## Experiments 
+#### 1 Develop Angular JS program that allows user to input their first name and last name and display their full
 name. Note: The default values for first name and last name may be included in the program.
 2 Develop an Angular JS application that displays a list of shopping items. Allow users to add and remove
 items from the list using directives and controllers.Note: The default values of items may be included in
