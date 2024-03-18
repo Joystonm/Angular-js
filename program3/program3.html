@@ -1,0 +1,15 @@
+<label for="first">enter 1st number :</label>
+<input type="number" id="first" [(ngModel)]="first">
+<br>
+<label for="second">enter 2nd number :</label>
+<input type="number" id="second" [(ngModel)]="second">
+
+<div>
+    <button (click)="add()">+</button>
+    <button (click)="sub()">-</button>
+    <button (click)="mul()">*</button>
+    <button (click)="div()">/</button>
+</div>
+
+
+<p>{{result}}</p>
