@@ -1,0 +1,10 @@
+<label for="std">Enter the number of students to display:</label>
+<input type="number" id="std" [(ngModel)]="number">
+<button (click)="displayStudents()">Display Students</button>
+
+  <ul>
+    <li *ngFor="let student of displayedStudents">   
+        {{ student.name }} ({{ student.usn }}) - CGPA: {{ student.cgpa }}
+    </li>
+  </ul>
+<p>Total number of students: {{studentsData.length }}</p>
