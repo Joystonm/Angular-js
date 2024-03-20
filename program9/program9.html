@@ -1,0 +1,12 @@
+<label for="name">search name</label>
+<input type="text" id="name" [(ngModel)]="name">
+
+<label for="salary">search salary</label>
+<input type="number" id="salary" [(ngModel)]="salary">
+
+<button (click)="search()">Search</button>
+<ul>
+  <li *ngFor="let e of employees">
+    <p>{{e.name}} {{e.salary}}</p>
+  </li>
+</ul>
