@@ -1,0 +1,14 @@
+<label for="name">Enter the name : </label>
+<input type="text" id="name" [(ngModel)]="name" >
+
+<label for="email">Enter the email : </label>
+<input type="email" id="email" [(ngModel)]="email">
+<button (click)="add()">Add</button>
+
+<ul>
+  <li *ngFor="let user of users;let i=index">
+    <p>{{user.n}} {{user.e}}</p>
+    <button (click)="edit(i)">Edit</button>
+    <button (click)="delete(i)">Delete</button>
+  </li>
+</ul>
